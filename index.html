@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Endometrial Trial Matcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Endometrial Cancer Clinical Trial Matcher</h1>
+    <form id="patientForm">
+
+      <label>Disease Setting:
+        <select id="diseaseSetting">
+          <option value="newly_diagnosed_stage1">Newly Diagnosed - Stage 1</option>
+          <option value="newly_diagnosed_stage2">Newly Diagnosed - Stage 2</option>
+          <option value="newly_diagnosed_stage3">Newly Diagnosed - Stage 3</option>
+          <option value="newly_diagnosed_stage4">Newly Diagnosed - Stage 4</option>
+          <option value="recurrent">Recurrent</option>
+          <option value="metastatic">Metastatic</option>
+        </select>
+      </label>
+      
+      <label>Prior Chemotherapy:
+        <select id="priorChemo">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+
+      <label>Number of Prior Lines:
+        <select id="priorLines">
+          <option value="0">Chemo-Naïve (0)</option>
+          <option value="1">1 or fewer</option>
+          <option value="2">2 or fewer</option>
+          <option value="3">3 or fewer</option>
+          <option value="4">4 or fewer</option>
+          <option value="unlimited">Unlimited</option>
+        </select>
+      </label>
+
+      <label>Histology:
+        <select id="histology">
+          <option value="endometrioid">Endometrioid</option>
+          <option value="serous">Serous</option>
+          <option value="clear cell">Clear Cell</option>
+          <option value="carcinosarcoma">Carcinosarcoma</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <label>Grade (if endometrioid):
+        <select id="grade">
+          <option value="1">Grade 1</option>
+          <option value="2">Grade 2</option>
+          <option value="3">Grade 3</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </label>
+
+      <label>MMR Status:
+        <select id="mmr">
+          <option value="pmmr">Proficient (pMMR)</option>
+          <option value="dmmr">Deficient (dMMR)</option>
+        </select>
+      </label>
+
+      <label>HER2 Status:
+        <select id="her2">
+          <option value="positive">Positive (2+ or 3+)</option>
+          <option value="negative">Negative</option>
+        </select>
+      </label>
+
+      <label>Prior Immunotherapy:
+        <select id="priorIO">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+
+      <label>FRα Status:
+        <select id="fra">
+          <option value="positive">Positive</option>
+          <option value="negative">Negative</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </label>
+
+      <label>CLDN6 Status:
+        <select id="cldn6">
+          <option value="positive">Positive</option>
+          <option value="negative">Negative</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </label>
+
+      <label>Mesothelin Status:
+        <select id="meso">
+          <option value="positive">Positive</option>
+          <option value="negative">Negative</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </label>
+
+      <label>Prior Exatecan/TopoI Exposure:
+        <select id="topo">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+
+      <label>Measurable Disease:
+        <select id="measurable">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+
+      <button type="submit">Match Trials</button>
+    </form>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="matcher.js"></script>
+</body>
+</html>
