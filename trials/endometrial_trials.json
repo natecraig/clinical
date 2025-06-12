@@ -85,3 +85,303 @@
     }
   }
 ]
+[
+  {
+    "trial_id": "NRG-GY025",
+    "title": "Nivolumab \u00b1 Ipilimumab",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "stage": [
+        "Recurrent",
+        "Metastatic"
+      ],
+      "prior_chemotherapy_lines": [
+        0,
+        1,
+        2
+      ],
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "NRG-GY028",
+    "title": "Megace \u00b1 Ipatasertib",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "histology": "High-grade endometrioid or carcinosarcoma",
+      "measurable_disease": true,
+      "prior_chemotherapy_lines": "unlimited",
+      "ecog": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-23415",
+    "title": "BGB-43395 CDK4 inhibitor",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "stage": [
+        "Recurrent",
+        "Metastatic"
+      ],
+      "measurable_disease": true,
+      "prior_chemotherapy": true,
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-24125",
+    "title": "LOXO-783 (FR\u03b1 ADC)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "stage": [
+        "Recurrent",
+        "Metastatic"
+      ],
+      "measurable_disease": true,
+      "prior_chemotherapy": true,
+      "ecog": [
+        0,
+        1
+      ]
+    },
+    "excluded": [
+      "prior_FRalpha_exatecan"
+    ]
+  },
+  {
+    "trial_id": "OSU-24298",
+    "title": "Zymeworks ADC (FR\u03b1)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "histology": [
+        "Serous",
+        "Endometrioid"
+      ],
+      "stage": [
+        "Recurrent",
+        "Metastatic"
+      ],
+      "prior_chemotherapy": true,
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "NRG-GY026",
+    "title": "Trastuzumab deruxtecan (HER2 2+ or 3+)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "stage": "Newly diagnosed",
+      "prior_chemotherapy": false,
+      "her2_status": [
+        "IHC 2+",
+        "IHC 3+"
+      ],
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "NRG-GY032",
+    "title": "Belantamab mafodotin + dostarlimab",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "stage": "Newly diagnosed",
+      "prior_chemotherapy": false,
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-21039",
+    "title": "Nivolumab in dMMR patients with autoimmune disorders",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "mmr_status": "dMMR",
+      "autoimmune_disease": true,
+      "ecog": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-23193",
+    "title": "ACR-368",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "histology": [
+        "Grade 3 endometrioid",
+        "Serous",
+        "Clear cell",
+        "Carcinosarcoma"
+      ],
+      "prior_chemotherapy_lines": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "measurable_disease": true,
+      "prior_immunotherapy": true,
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-23428",
+    "title": "MK2870 TROP2 ADC + Pembrolizumab",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": "either",
+      "prior_immunotherapy": true,
+      "ecog": [
+        0,
+        1
+      ],
+      "prior_therapy_lines": {
+        "max": 3
+      }
+    },
+    "excluded": [
+      "prior_exatecan"
+    ]
+  },
+  {
+    "trial_id": "OSU-24149",
+    "title": "SGN-MesoC2 (mesothelin)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": true,
+      "mesothelin_expression": "positive",
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-24160",
+    "title": "IMGN151",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": true,
+      "fralpha_expression": "moderate to high",
+      "prior_chemotherapy_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ecog": [
+        0,
+        1
+      ]
+    },
+    "excluded": [
+      "prior_FRalpha_exatecan"
+    ]
+  },
+  {
+    "trial_id": "OSU-24185",
+    "title": "B7H4 + Tislelizumab",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": true,
+      "b7h4_expression": "positive",
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-24206",
+    "title": "POL\u03b8 inhibitor (Novobiocin)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": true,
+      "genetic_mutations": [
+        "BRCA",
+        "PALB2",
+        "RAD51C",
+        "RAD51D",
+        "ATRX",
+        "PPP2R1a",
+        "ATM"
+      ],
+      "prior_chemotherapy": true,
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "OSU-25049",
+    "title": "SGR-3515-101 (Wee1 inhibitor)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "histology": "Uterine serous carcinoma",
+      "measurable_disease": true,
+      "ecog": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "trial_id": "EAY191-N4",
+    "title": "RAS/RAF Pathway Inhibitor (EAY191-N4)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": true,
+      "ras_raf_alteration": true,
+      "prior_chemotherapy": true,
+      "ecog": [
+        0,
+        1
+      ]
+    },
+    "excluded": [
+      "untreated_or_unstable_brain_mets",
+      "prior_mek_inhibitor"
+    ]
+  },
+  {
+    "trial_id": "OSU-24119",
+    "title": "XmAb541 (CLDN6 ADC) Trial \u2013 Dose Escalation (Part 1)",
+    "eligible_if": {
+      "diagnosis": "Endometrial cancer",
+      "measurable_disease": "either",
+      "ecog": [
+        0,
+        1
+      ]
+    },
+    "excluded": [
+      "prior_cldn6_targeted_therapy"
+    ],
+    "notes": "CLDN6 expression not required for Part 1 dose escalation."
+      }
+]
